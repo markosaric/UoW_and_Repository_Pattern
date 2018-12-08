@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Conferences.DataAccess.Common\Conferences.DataAccess.Common.csproj" />
+    <ProjectReference Include="..\Conferences.DataAccess.SqlServer\Conferences.DataAccess.SqlServer.csproj" />
+  </ItemGroup>
+</Project>
